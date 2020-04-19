@@ -95,30 +95,36 @@ const IndexPage = () => {
               </div>
             </div>
           </div> */}
-          <div class="container">
-            <div class="card-deck">
-              <div class="card ">
-                <div class="card-header">
+          <div className="container">
+            <div className="card-deck">
+              <div className="card ">
+                <div className="card-header">
                   <img src={require("../images/k.png")} width="50" /> AIO
                 </div>
-                <div class="card-body text-center">
-                  <p class="card-text">Some text inside the first card</p>
-                  <p class="card-text">Some more text to increase the height</p>
-                  <p class="card-text">Some more text to increase the height</p>
-                  <p class="card-text">Some more text to increase the height</p>
-                  <a href="#" class="btn btn-primary">
+                <div className="card-body text-center">
+                  <p className="card-text">Some text inside the first card</p>
+                  <p className="card-text">
+                    Some more text to increase the height
+                  </p>
+                  <p className="card-text">
+                    Some more text to increase the height
+                  </p>
+                  <p className="card-text">
+                    Some more text to increase the height
+                  </p>
+                  <a href="#" className="btn btn-primary">
                     Go somewhere
                   </a>
                 </div>
               </div>
 
-              <div class="card ">
-                <div class="card-header">
+              <div className="card ">
+                <div className="card-header">
                   <img src={require("../images/k.png")} width="50" /> RAFFLE
                 </div>
-                <div class="card-body text-center">
-                  <p class="card-text">Some text inside the fourth card</p>
-                  <a href="#" class="btn btn-primary">
+                <div className="card-body text-center">
+                  <p className="card-text">Some text inside the fourth card</p>
+                  <a href="#" className="btn btn-primary">
                     Go somewhere
                   </a>
                 </div>
