@@ -14,39 +14,58 @@ const Features = props => {
           <div className="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
             <ul>
               <li>
-                <img
-                  src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/speed.png")}
-                  alt=""
-                />
-                <div className="text">
-                  <h4>Rocket Speeds</h4>
-                  <p>
-                    We leave our competitors in the dust. Cop seamlessly with
-                    our competitive & reliable speeds
-                  </p>
+                <div
+                  data-sal="slide-left"
+                  data-sal-delay="300"
+                  data-sal-easing="ease-out-back"
+                >
+                  <img
+                    src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/speed.png")}
+                    alt=""
+                  />
+                  <div className="text">
+                    <h4>Rocket Speeds</h4>
+                    <p>
+                      We leave our competitors in the dust. Cop seamlessly with
+                      our competitive & reliable speeds
+                    </p>
+                  </div>
                 </div>
               </li>
-              <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
-                <img
-                  src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/about1.png")}
-                  alt=""
-                />
-                <div className="text">
-                  <h4>Multi-Browser Support</h4>
-                  <p>Run all your profiles across multiple browsers!</p>
+
+              <li>
+                <div
+                  data-sal="slide-right"
+                  data-sal-delay="400"
+                  data-sal-easing="ease"
+                >
+                  <img
+                    src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/about1.png")}
+                    alt=""
+                  />
+                  <div className="text">
+                    <h4>Multi-Browser Support</h4>
+                    <p>Run all your profiles across multiple browsers!</p>
+                  </div>
                 </div>
               </li>
-              <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
-                <img
-                  src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/support1.png")}
-                  alt=""
-                />
-                <div className="text">
-                  <h4>AutoCheckout Features</h4>
-                  <p>
-                    Toggle between Cart Mode and Checkout Mode to fully automate
-                    your checkout experience!
-                  </p>
+              <li>
+                <div
+                  data-sal="slide-left"
+                  data-sal-delay="500"
+                  data-sal-easing="ease"
+                >
+                  <img
+                    src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/support1.png")}
+                    alt=""
+                  />
+                  <div className="text">
+                    <h4>AutoCheckout Features</h4>
+                    <p>
+                      Toggle between Cart Mode and Checkout Mode to fully
+                      automate your checkout experience!
+                    </p>
+                  </div>
                 </div>
               </li>
             </ul>

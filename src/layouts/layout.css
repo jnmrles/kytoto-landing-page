@@ -17,7 +17,7 @@ a {
 .Hero {
   background: url("../images/flare6.jpg");
   color: black;
-  height: 600px;
+  height: 700px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -117,7 +117,7 @@ a {
 .Hero .Logos {
   max-width: 680px;
   display: grid;
-  grid-template-columns: repeat(8, 50px);
+  grid-template-columns: repeat(6, 1fr);
   -webkit-box-align: center;
   align-items: center;
   justify-items: center;
@@ -296,8 +296,8 @@ a {
   white-space: nowrap;
   background: linear-gradient(
     104.74deg,
-    rgb(123, 66, 246) 0%,
-    rgb(176, 30, 255) 100%
+    rgb(116, 252, 78) 0%,
+    rgb(30, 120, 255) 100%
   );
   border-radius: 30px;
   border-width: initial;

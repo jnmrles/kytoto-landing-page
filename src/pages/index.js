@@ -27,10 +27,8 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="testClass">
-          <button>hello</button>
-          <div className="titleWrapper">
-            <p>$ 9 monthly</p>{" "}
-          </div>
+          <button>Sold Out</button>
+          <div className="titleWrapper"></div>
         </div>
         <Wave />
       </div>
