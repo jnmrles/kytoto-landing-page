@@ -7,7 +7,7 @@ const Features = props => {
         <div className="row">
           <div className="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big">
             <img
-              src={require("../images/laptop.png")}
+              src={require("../images/lap.png")}
               className="rounded img-fluid d-block mx-auto"
             />
           </div>
