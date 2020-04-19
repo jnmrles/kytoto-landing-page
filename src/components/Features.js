@@ -7,7 +7,7 @@ const Features = props => {
         <div className="row">
           <div className="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big">
             <img
-              src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/LapTop.png")}
+              src={require("../images/LapTop.png")}
               className="rounded img-fluid d-block mx-auto"
             />
           </div>
@@ -19,10 +19,7 @@ const Features = props => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-back"
                 >
-                  <img
-                    src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/speed.png")}
-                    alt=""
-                  />
+                  <img src={require("../images/speed.png")} alt="" />
                   <div className="text">
                     <h4>Rocket Speeds</h4>
                     <p>
@@ -39,10 +36,7 @@ const Features = props => {
                   data-sal-delay="400"
                   data-sal-easing="ease"
                 >
-                  <img
-                    src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/about1.png")}
-                    alt=""
-                  />
+                  <img src={require("../images/about1.png")} alt="" />
                   <div className="text">
                     <h4>Multi-Browser Support</h4>
                     <p>Run all your profiles across multiple browsers!</p>
@@ -55,10 +49,7 @@ const Features = props => {
                   data-sal-delay="500"
                   data-sal-easing="ease"
                 >
-                  <img
-                    src={require("/Users/jnmrles/Desktop/FullStack-Work/design-code-course/gatsby-test copy/src/images/support1.png")}
-                    alt=""
-                  />
+                  <img src={require("../images/support1.png")} alt="" />
                   <div className="text">
                     <h4>AutoCheckout Features</h4>
                     <p>
