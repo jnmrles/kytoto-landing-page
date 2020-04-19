@@ -1,25 +1,136 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "gatsby-link"
+import Card from "../components/Card"
+import "../layouts/layout.css"
+import Header from "../components/header"
+import Wave from "../components/Wave"
+import Section from "../components/Section"
+import Features from "../components/Features"
+import Lottie from "react-lottie"
 
-import Layout from "../layouts/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const IndexPage = () => {
+  return (
+    <div>
+      <Header />
+      <div className="Hero">
+        <div className="HeroGroup">
+          <img src={require("../images/ktitle.png")} width="300" />
+          <p>A New Era of E-Commerce Automation.</p>
+          {/* <Link to="/page-2/">Purchase</Link> */}
+          <div className="Logos">
+            <img src={require("../images/logo-sketch.png")} width="50" />
+            <img src={require("../images/logo-figma.png")} width="50" />
+            <img src={require("../images/logo-studio.png")} width="50" />
+            <img src={require("../images/logo-framer.png")} width="50" />
+            <img src={require("../images/logo-react.png")} width="50" />
+            <img src={require("../images/logo-swift.png")} width="50" />
+          </div>
+        </div>
+        <div className="testClass">
+          <button>hello</button>
+          <div className="titleWrapper">
+            <p>$ 9 monthly</p>{" "}
+          </div>
+        </div>
+        <Wave />
+      </div>
+      <div className="Cards" id="Cards">
+        {/* <div className="CardGroup">
+        <Card
+          title="Naked ATC"
+          text="10 sections"
+          image={require("../images/wallpaper.jpg")}
+        />
+        <Card
+          title="Soto ATC"
+          text="12 sections"
+          image={require("../images/wallpaper2.jpg")}
+        />
+        <Card
+          title="HollyWood ATC"
+          text="5 sections"
+          image={require("../images/wallpaper3.jpg")}
+        />
+        <Card
+          title="Kyoto AIO"
+          text="10 sections"
+          image={require("../images/wallpaper4.jpg")}
+        />
+      </div> */}
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <div className="Hero">
-      <div className="HeroGroup">
-        <h1>Kyoto</h1>
-        <p>
-          A New Generation of <br />
-          E-Commerce Automation
-        </p>
+        <Features />
+      </div>
 
-        <Link to="/page-2/">Go to page 2</Link>
+      <Section
+        image={
+          "https://uploads-ssl.webflow.com/5a833accbd255a0001fb8c90/5a833acdbd255a0001fb8cf8_Asset%2010.svg"
+        }
+        logo={require("../images/logo-react.png")}
+        title="Optimized"
+        text=" Our software is built with practical applications of Computer Science theory and Algorithms to ensure our space time trade-offs"
+      />
+
+      <div className="ProductGroup" id="Cards">
+        <div className="ProductCard">
+          {/* <div className="text-center">
+            <div className="card text-white bg-primary mb-3">
+              <div className="card-header">
+                <img src={require("../images/k.png")} width="50" />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Primary card title</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up
+                  \n the bulk \n of the content.
+                </p>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up
+                  \n the bulk \n of the content.
+                </p>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up
+                  \n the bulk \n of the content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div> */}
+          <div class="container">
+            <div class="card-deck">
+              <div class="card ">
+                <div class="card-header">
+                  <img src={require("../images/k.png")} width="50" /> AIO
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the first card</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ">
+                <div class="card-header">
+                  <img src={require("../images/k.png")} width="50" /> RAFFLE
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the fourth card</p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </Layout>
-)
+  )
+}
 
 export default IndexPage
