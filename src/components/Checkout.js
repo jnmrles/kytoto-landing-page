@@ -12,7 +12,7 @@ const Checkout = () => {
     const { error } = await stripe.redirectToCheckout({
       items: [
         // Replace with the ID of your plan
-        { plan: "raffle", quantity: 1 },
+        { plan: "plan_H88dh6PSCHJWGD", quantity: 1 },
       ],
       successUrl: "https://kyotoscripts.netlify.app/",
       cancelUrl: "https://kyotoscripts.netlify.app/",
