@@ -2,7 +2,7 @@ import React, { Children } from "react"
 import { loadStripe } from "@stripe/stripe-js"
 import axios from "axios"
 
-const stripePromise = loadStripe("pk_test_yjYZdixoJgv2HYUuo9kRdp3Q00IG5bkzg5")
+const stripePromise = loadStripe("pk_live_pG1geCh96qebYNajdBZV21FK00HoAVMAWG")
 
 const Checkout = () => {
   console.log("hello")
@@ -12,7 +12,7 @@ const Checkout = () => {
     const { error } = await stripe.redirectToCheckout({
       items: [
         // Replace with the ID of your plan
-        { plan: "plan_H88dh6PSCHJWGD", quantity: 1 },
+        { plan: "raffle", quantity: 1 },
       ],
       successUrl: "https://kyotoscripts.netlify.app/success",
       cancelUrl: "https://kyotoscripts.netlify.app/canceled",
