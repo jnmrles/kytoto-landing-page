@@ -2,7 +2,7 @@ import React, { Children } from "react"
 import { loadStripe } from "@stripe/stripe-js"
 import axios from "axios"
 
-const stripePromise = loadStripe("pk_live_pG1geCh96qebYNajdBZV21FK00HoAVMAWG")
+const stripePromise = loadStripe("pk_test_yjYZdixoJgv2HYUuo9kRdp3Q00IG5bkzg5")
 
 const Checkout = () => {
   console.log("hello")
