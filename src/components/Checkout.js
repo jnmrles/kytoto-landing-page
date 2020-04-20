@@ -14,8 +14,8 @@ const Checkout = () => {
         // Replace with the ID of your plan
         { plan: "plan_H88dh6PSCHJWGD", quantity: 1 },
       ],
-      successUrl: "https://kyotoscripts.netlify.app/",
-      cancelUrl: "https://kyotoscripts.netlify.app/",
+      successUrl: "https://kyotoscripts.netlify.app/success",
+      cancelUrl: "https://kyotoscripts.netlify.app/canceled",
     })
     // If `redirectToCheckout` fails due to a browser or network
     // error, display the localized error message to your customer
