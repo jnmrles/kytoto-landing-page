@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@stripe/stripe-js": "^1.4.0",
     "aos": "^2.3.4",
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "components": "^0.1.0",
     "gatsby": "^2.20.12",
@@ -25,7 +27,9 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-lottie": "^1.2.3",
+    "react-stripe-checkout": "^2.6.3",
     "scrollreveal": "^4.0.6",
+    "stripe": "^8.44.0",
     "styled": "^1.0.0",
     "styled-components": "^5.1.0",
     "typescript": "^3.8.3"

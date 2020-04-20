@@ -7,7 +7,7 @@ import Wave from "../components/Wave"
 import Section from "../components/Section"
 import Features from "../components/Features"
 import Lottie from "react-lottie"
-
+import Checkout from "../components/Checkout"
 const IndexPage = () => {
   return (
     <div>
@@ -27,7 +27,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="testClass">
-          <button>Sold Out</button>
+          <Checkout />
           <div className="titleWrapper"></div>
         </div>
         <Wave />
