@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Link from "gatsby-link"
 import Card from "../components/Card"
 import "../layouts/layout.css"
@@ -9,6 +9,8 @@ import Features from "../components/Features"
 import Lottie from "react-lottie"
 import Checkout from "../components/Checkout"
 const IndexPage = () => {
+  const [style, setStyle] = useState({ display: "block" })
+  const handleBoxToggle = () => setStyle({ display: "none" })
   return (
     <div>
       <Header />
@@ -101,19 +103,19 @@ const IndexPage = () => {
                 <div className="card-header">
                   <img src={require("../images/k.png")} width="50" /> AIO
                 </div>
-                <div className="card-body text-center">
-                  <p className="card-text">Some text inside the first card</p>
-                  <p className="card-text">
-                    Some more text to increase the height
-                  </p>
-                  <p className="card-text">
-                    Some more text to increase the height
-                  </p>
-                  <p className="card-text">
-                    Some more text to increase the height
-                  </p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
+                <div className="card-body">
+                  <h5>Automated Cart & Checkout Features:</h5>
+                  <p className="card-text">✅Raffle sites</p>
+                  <p className="card-text">✅Shopify</p>
+                  <p className="card-text">✅Supreme</p>
+                  <p className="card-text">✅Stripe</p>
+                  <p className="card-text">✅SNS</p>
+                  <p className="card-text">✅Stripe</p>
+                </div>
+
+                <div className="card-footer text-center">
+                  <a href="#" className="btn btn-outline-dark">
+                    Coming Soon...
                   </a>
                 </div>
               </div>
@@ -122,11 +124,17 @@ const IndexPage = () => {
                 <div className="card-header">
                   <img src={require("../images/k.png")} width="50" /> RAFFLE
                 </div>
-                <div className="card-body text-center">
-                  <p className="card-text">Some text inside the fourth card</p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a>
+                <div className="card-body">
+                  <h5>Automated Add-to-Cart Extension:</h5>
+                  <p className="card-text">✅Supports All Raffle Sites</p>
+                  <p className="card-text">
+                    ✅Regular Updates to include any new Raffle sites
+                  </p>
+                </div>
+                <div className="card-footer text-center">
+                  <button id="raffle-btn">
+                    <Checkout />
+                  </button>
                 </div>
               </div>
             </div>

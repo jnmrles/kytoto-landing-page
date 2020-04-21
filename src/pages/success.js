@@ -22,7 +22,7 @@ const Success = () => (
 
     <div className="jumbotron">
       <div className="HeroGroup">
-        <div id="Icon">
+        <div id="Icon" className="text-center">
           <Icon />
         </div>
 
