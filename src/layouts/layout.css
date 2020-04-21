@@ -310,11 +310,21 @@ a {
 }
 
 .jumbotron {
-  background-color: #1e1e1e;
-  height: 900px;
+  height: 1000px;
+  background-color: black;
+
   background-size: cover;
-  background-position: center;
+  display: grid;
+  grid-template-rows: 300px auto;
+  grid-gap: 20px;
   position: relative;
+  @media (max-width: 800px) {
+    height: 1100px;
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .jumbotron svg {
@@ -345,5 +355,9 @@ a {
   animation-delay: 0.1s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
-  margin-left: 7%;
+  align-self: end;
+  width: 128px;
+  height: 200px;
+
+  margin: 0 auto 0 auto;
 }
