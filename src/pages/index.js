@@ -132,9 +132,9 @@ const IndexPage = () => {
                   </p>
                 </div>
                 <div className="card-footer text-center">
-                  <button id="raffle-btn">
+                  <div id="raffle-btn">
                     <Checkout />
-                  </button>
+                  </div>
                 </div>
               </div>
             </div>
