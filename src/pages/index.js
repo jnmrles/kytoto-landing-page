@@ -128,8 +128,12 @@ const IndexPage = () => {
                   <h5>Automated Add-to-Cart Extension:</h5>
                   <p className="card-text">✅Supports All Raffle Sites</p>
                   <p className="card-text">
+                    ✅Naked, Soto, Hollywood, Caliroots, etc.
+                  </p>
+                  <p className="card-text">
                     ✅Regular Updates to include any new Raffle sites
                   </p>
+                  <p className="card-text">✅Easy Set-Up</p>
                 </div>
                 <div className="card-footer text-center">
                   <div id="raffle-btn">

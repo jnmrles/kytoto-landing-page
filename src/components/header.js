@@ -99,16 +99,18 @@ const Header = () => {
           <Link to="/">
             <img src={require("../images/k.png")} width="30" />
           </Link>
-
-          <Link id="down" to="/downloads">
-            Donwloads
-          </Link>
           <button onClick={handleClick} id="features">
             {" "}
             Features
           </button>
 
-          <button>Buy</button>
+          <Link id="down" to="/downloads">
+            Donwloads
+          </Link>
+
+          <button>
+            <a href="ProductGroup">Buy</a>
+          </button>
         </div>
       </div>
     </>

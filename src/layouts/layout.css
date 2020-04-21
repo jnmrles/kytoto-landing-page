@@ -380,15 +380,23 @@ a {
   display: inline-block;
   justify-self: center;
   white-space: nowrap;
-  background: rgb(30, 120, 255);
-  value: "$4.99/month";
+  background: rgb(24, 247, 124);
 
   border-radius: 30px;
   border-width: initial;
   border-style: none;
   border-color: initial;
   border-image: initial;
-  padding: 4px 10px;
+  padding: 6px 15px;
   outline: none;
+  transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2) 0s;
+}
+
+.card-footer button:hover {
+  box-shadow: rgba(7, 92, 237, 0.755) 0px 10px 20px;
+
+  background: rgb(24, 150, 247);
+  transform: translateY(-3px);
+
   transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2) 0s;
 }
