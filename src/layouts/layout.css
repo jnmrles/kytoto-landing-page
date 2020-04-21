@@ -310,8 +310,25 @@ a {
 }
 
 .jumbotron {
-  padding: 10% 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: 0.3rem;
+  color: black;
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.jumbotron svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#Icon {
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  margin-left: 7%;
 }
