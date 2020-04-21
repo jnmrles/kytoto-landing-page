@@ -310,7 +310,7 @@ a {
 }
 
 .jumbotron {
-  color: black;
+  background-color: #1e1e1e;
   height: 900px;
   background-size: cover;
   background-position: center;
@@ -322,6 +322,21 @@ a {
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+.jumbotron p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  line-height: 1.5;
+  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+
+.jumbotron strong {
+  color: rgba(255, 255, 255, 0.8);
+
+  line-height: 1.5;
+  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
 }
 
 #Icon {
