@@ -9,6 +9,7 @@
     "aos": "^2.3.4",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "braintree-web-drop-in": "^1.22.1",
     "components": "^0.1.0",
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",

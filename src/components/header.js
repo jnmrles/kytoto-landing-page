@@ -58,6 +58,18 @@ const Header = () => {
       )
   }
 
+  const handleSuccess = e => {
+    e.preventDefault()
+    return $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $("#success").offset().top,
+        },
+        200
+      )
+  }
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset
@@ -104,12 +116,12 @@ const Header = () => {
             Features
           </button>
 
-          <Link id="down" to="/downloads">
-            Donwloads
-          </Link>
+          <button onClick={handleSuccess} id="features">
+            Success
+          </button>
 
           <button>
-            <a href="ProductGroup">Buy</a>
+            <a href="#Products">Buy</a>
           </button>
         </div>
       </div>

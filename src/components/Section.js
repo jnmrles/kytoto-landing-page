@@ -753,7 +753,7 @@ const Section = props => (
       <SectionText>{props.text}</SectionText>
       <a
         className="twitter-timeline"
-        href="https://twitter.com/TwitterDev"
+        href="https://twitter.com/KyotoScriptsIO"
         data-width="400"
         data-height="400"
       >

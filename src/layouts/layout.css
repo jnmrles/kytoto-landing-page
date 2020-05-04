@@ -116,8 +116,7 @@ a {
 
 .Hero .Logos {
   max-width: 680px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+
   -webkit-box-align: center;
   align-items: center;
   justify-items: center;
