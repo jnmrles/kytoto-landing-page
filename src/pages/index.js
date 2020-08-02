@@ -155,7 +155,7 @@ const IndexPage = () => {
                       <input
                         type="hidden"
                         name="hosted_button_id"
-                        value="7GZ4AAKCQPRCE"
+                        value="U8RKYHAJK8HE6"
                       />
                       <table>
                         <tr>
