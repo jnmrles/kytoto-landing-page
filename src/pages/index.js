@@ -127,17 +127,21 @@ const IndexPage = () => {
 
               <div className="card ">
                 <div className="card-header">
-                  <img src={require("../images/k.png")} width="50" /> RAFFLE
+                  <img src={require("../images/k.png")} width="50" /> ATC
+                  EXTENSION
                 </div>
                 <div className="card-body">
                   <h5>Automated Add-to-Cart Extension:</h5>
                   <p className="card-text">✅Supports All Raffle Sites</p>
                   <p className="card-text">
-                    ✅Naked, Soto, Hollywood, Caliroots, etc.
+                    ✅Naked, Soto, Hollywood, Caliroots, Yme Universe, JunkYard,
+                    SkateDeluxe, Zalando (All Regions), FootShop, FootDistrict,
+                    etc!
                   </p>
                   <p className="card-text">
                     ✅Regular Updates to include any new Raffle sites
                   </p>
+                  <p className="card-text">✅Multiple Activations</p>
                   <p className="card-text">✅Easy Set-Up</p>
                 </div>
                 <div className="card-footer text-center">
