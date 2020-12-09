@@ -76,54 +76,9 @@ const IndexPage = () => {
 
       <div className="ProductGroup" id="Cards">
         <div className="ProductCard">
-          {/* <div className="text-center">
-            <div className="card text-white bg-primary mb-3">
-              <div className="card-header">
-                <img src={require("../images/k.png")} width="50" />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Primary card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  \n the bulk \n of the content.
-                </p>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  \n the bulk \n of the content.
-                </p>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  \n the bulk \n of the content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div> */}
           <div className="container" id="Products">
             <div className="card-deck">
-              <div className="card ">
-                <div className="card-header">
-                  <img src={require("../images/k.png")} width="50" /> AIO
-                </div>
-                <div className="card-body">
-                  <h5>Automated Cart & Checkout Features:</h5>
-                  <p className="card-text">✅Raffle sites</p>
-                  <p className="card-text">✅Shopify</p>
-                  <p className="card-text">✅Supreme</p>
-                  <p className="card-text">✅Stripe</p>
-                  <p className="card-text">✅SNS</p>
-                  <p className="card-text">✅Stripe</p>
-                </div>
 
-                <div className="card-footer text-center">
-                  <a href="#" className="btn btn-outline-dark">
-                    Coming Soon...
-                  </a>
-                  {/* <button id="brain">Pay</button> */}
-                </div>
-              </div>
 
               <div className="card ">
                 <div className="card-header">
