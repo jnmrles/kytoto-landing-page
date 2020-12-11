@@ -83,7 +83,7 @@ const IndexPage = () => {
               <div className="card ">
                 <div className="card-header">
                   <img src={require("../images/k.png")} width="50" /> ATC
-                  EXTENSION
+                  EXTENSION $15/Month
                 </div>
                 <div className="card-body">
                   <h5>Automated Add-to-Cart Extension:</h5>
