@@ -120,9 +120,7 @@ const Header = () => {
             Success
           </button>
 
-          <a  href="https://www.termsfeed.com/live/66097ebd-6261-40de-af2b-2d380a5606c8" style={{color: "white" }}>Terms</a>
-          <a  href="https://www.termsfeed.com/live/2f8fe288-b434-42a9-b551-9ea4962065ee" style={{color: "white" }}>Privacy Policy</a>
-          <a  href="/terms" style={{color: "white" }}>Refund Policy</a>
+
           <button>
             <a href="#Products">Buy</a>
           </button>
